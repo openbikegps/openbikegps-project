@@ -31,3 +31,10 @@ repos:
         path: "layers/meta-openbikecomputer"
         layers:
             .:
+
+    documentation:
+        url: "git@github.com:openbikecomputer/documentation.git"
+        refspec: "3edf6805a2635334fcfa45d07f65b2fa14e7a2e5"
+        path: "documentation"
+        layers:
+            documentation: excluded
